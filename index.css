@@ -1,0 +1,31 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.contenitore{
+    height: 190px ;
+    background-color:rgb(78, 160, 255);
+    background-image: url(./img/pattern.png);
+    background-size: auto;
+    position: relative;
+}
+.logo{
+    width: 250px ;
+    margin-left: 1%;
+    position: absolute;
+    bottom: 0;
+}
+h1 {
+    font-size: 40px;
+  }
+#Booleaner{
+color: rgb(99, 195, 236);
+}
+p{
+    color: rgb(203, 203, 203);
+    font-size: 20px;
+}
+#data {
+    font-size: 15px;
+}
