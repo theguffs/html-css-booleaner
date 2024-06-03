@@ -3,6 +3,7 @@
     padding: 0 ;
     box-sizing: border-box;
 }
+/*inizio header*/
 .contenitore{
     height: 190px ;
     background-color:rgb(78, 160, 255);
@@ -22,10 +23,56 @@ h1 {
 #Booleaner{
 color: rgb(99, 195, 236);
 }
-p{
+.info{
     color: rgb(203, 203, 203);
     font-size: 20px;
 }
-#data {
+.info.data {
     font-size: 15px;
+    margin-bottom: 15px;
+}
+/*fine header*/ 
+/*inizio foto tim*/ 
+.tim{
+    margin-left: 1%;
+}
+.didascalia {
+    font-size: 15px;
+    font-style: italic; 
+    margin-bottom: 15px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.giallo{
+    background-color: yellow;
+}
+ul{
+    margin-left: 30px;
+    margin-bottom: 1%;
+}
+/*tabella*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1%;
+}
+
+td{
+    width: 30%;
+    
+}
+
+th{
+    background-color: rgb(32, 169, 229);
+    text-align: left;
+    width: 1px;
+    color: white;
+}
+tbody{
+    background-color: rgb(177, 229, 242);
+}
+.bianco{
+    background-color: white;
 }
